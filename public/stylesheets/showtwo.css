@@ -1,0 +1,32 @@
+body{
+	background: url(https://images.pexels.com/photos/1118448/pexels-photo-1118448.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.jpg) no-repeat;
+}
+.navbar{
+	opacity: 0.6;
+}
+.ritwik{
+	font-size: 40px;
+	font-weight: 700;
+	position: relative;
+	animation: text 3s 1;
+}
+.rohit{
+	font-size: 20px;
+	font-weight: 350;
+}
+
+@keyframes text {
+	0%{
+		color: black;
+		margin-bottom: 0px;
+	}
+	30%{
+		letter-spacing: 15px;
+		margin-bottom: 0px;
+	}
+	85%{
+		letter-spacing: 4px;
+		margin-bottom: 0px;
+
+	}
+}
